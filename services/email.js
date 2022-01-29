@@ -16,14 +16,14 @@ async function sendEmail(body) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: "andy511@meta.ua", // generated ethereal user
-      pass: "SantAdria3331", // generated ethereal password
+      user: "", // generated ethereal user
+      pass: "", // generated ethereal password
     },
   });
 
   const emailOptions = {
-    from: "andy511@meta.ua", // sender address
-    to: "andy.smokk@gmail.com", // list of receivers
+    from: "", // sender address
+    to: "", // list of receivers
     subject: "Hello ✔", // Subject line
     text: userMessage, // plain text body
     html: output, // html body
